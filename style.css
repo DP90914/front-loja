@@ -1,0 +1,44 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+header{
+    background-color: gold;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+.header-main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 32px;
+
+}
+.header-main input{
+    width: 20%;
+}
+.promocao{
+    width: 30%;
+    height: 30%;
+}
+.lista-header{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    gap: 32px;
+    justify-content: center;
+}
+main{
+    padding-top: 20px;
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+main div img{
+    height: 100%;
+}
